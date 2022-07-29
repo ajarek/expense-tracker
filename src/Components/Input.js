@@ -13,6 +13,9 @@ export class Input {
     input.name = this.name;
     input.placeholder = this.placeholder;
     input.setAttribute("required", true);
+    if(this.type==="number"){
+        input.setAttribute("step","0.01")
+    }
     return input;
   }
 }

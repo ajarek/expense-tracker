@@ -9,8 +9,8 @@ export class Main{
          const boardHeader= document.createElement("div");
             boardHeader.classList.add("board-header");
             boardHeader.innerHTML = `<p>${this.title}</p>
-            <h4 class="bilans">PLN <span>120</span></h4>`
-            const form = new Form('Add new transaction');
+            <h4 class="bilans">PLN <span class="balance" >0</span></h4>`
+            const form = new Form('Dodaj nową transakcję');
             board.append(boardHeader, form.render());
 
 
