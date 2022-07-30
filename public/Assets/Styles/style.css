@@ -178,3 +178,13 @@ button{
     width: 50%;
     height: 30px;
 }
+@media screen and (max-width: 400px){
+    #root{
+       justify-content: flex-start;
+    }
+   .board,.transaction__container{
+       width: 100vw;
+       border-radius: 0;
+   } 
+    
+}
